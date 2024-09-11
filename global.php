@@ -10,6 +10,5 @@
          $res = mysql_query ($sql) or die ("SQL incorrecto : $sql"); 
          return $res;       
       } 
-       
-       
+             
 ?> 
