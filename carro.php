@@ -48,5 +48,25 @@
          echo "</ul>"; 
       }    
        
+   } else { 
+    
+   /* muestra categorias existentes en la DB */ 
+    
+      $sql = "SELECT * FROM categorias ORDER BY nombre"; 
+      $res = do_sql ($sql); 
+       
+      echo "<ul>"; 
+      while ($row = mysql_fetch_array($res)) { 
+       
+         echo "<li><b><a href=\"carro.php?cat=".$row['id_cat']."\">".$row['nombre']."</a></b></li> 
+                  <br><i>".$row['descripcion']."</i> 
+                  <br><br>"; 
+      } 
+      echo "</ul>"; 
+   } 
+    
 ?>
-
+</h3> 
+<a href="carrito.php"><img src="vercarrito.gif" width="24" height="21" border="0"> [ver carrito]</a> 
+<hr> 
+<br>
