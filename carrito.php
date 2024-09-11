@@ -41,6 +41,21 @@
                            <td width=\"5%\"><a href=\"carrito.php?act=del&item=".$row['id_item']."\"><img src=\"trash.gif\" border=\"0\"></a></td> 
                        </tr>"; 
                $total += $row['precio']*$_SESSION['carrito'][$row['id_item']];                         
-         }           
+         } 
+
+         echo "</table><br>"; 
+          
+         echo "<table width=\"80%\" border=\"1\"> 
+                     <tr> 
+                        <td width=\"83%\">TOTAL</td> 
+                        <td width=\"27%\">$".$total."</td> 
+                     </tr> 
+                  </table>";                              
+  else : 
+     echo "no hay productos en el carrito!!"; 
+  endif; 
+  
+  echo "<br><br><a href=\"\">[realizar la compra]</a> - <a href=\"carro.php\">[seguir comprando]</a>";          
 
 ?> 
+
