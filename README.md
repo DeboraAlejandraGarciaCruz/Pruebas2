@@ -12,3 +12,9 @@ El proyecto consta de los siguientes archivos principales:
 - **`logout.php`**: Permite al usuario salir del sistema o limpiar la sesión actual.
 - **`trash.gif`**: Imagen utilizada para representar la acción de eliminar un producto del carrito.
 - **`vercarrito.gif`**: Imagen utilizada para mostrar o visualizar el carrito de compras.
+
+# Funcionalidades
+
+- **Agregar Productos**: Los usuarios pueden añadir productos al carrito de compras y ver sus detalles.
+- **Eliminar Productos**: Se pueden eliminar productos específicos del carrito utilizando el ícono de la papelera (`trash.gif`).
+- **Actualizar Cantidad**: Permite modificar la cantidad de productos en el carrito en tiempo real.
