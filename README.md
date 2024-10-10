@@ -21,4 +21,7 @@ El proyecto consta de los siguientes archivos principales:
 - - **Visualización del Carrito**: Los usuarios pueden ver el contenido del carrito usando el ícono (`vercarrito.gif`).
 - **Gestión de Sesión**: Funcionalidad para cerrar sesión o limpiar el carrito utilizando `logout.php`.
 
-## Cómo Usar el Carrito de Compras
+## Requisitos
+
+- **PHP**: Debes tener instalado y configurado PHP en tu servidor.
+- **Servidor Web**: Requiere un entorno de servidor local como Apache para ejecutar el código PHP.
