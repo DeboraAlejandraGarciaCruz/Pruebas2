@@ -32,3 +32,7 @@ El proyecto consta de los siguientes archivos principales:
 - **Eliminar Producto**: Usa el ícono de la papelera (`trash.gif`) para eliminar un producto.
 - **Actualizar Cantidad**: Ajusta la cantidad de productos y observa cómo el total se actualiza automáticamente.
 - **Ver Carrito**: Haz clic en el ícono (`vercarrito.gif`) para revisar los productos añadidos.
+
+## Autor
+
+Debora Alejandra Garcia Cruz
