@@ -25,3 +25,10 @@ El proyecto consta de los siguientes archivos principales:
 
 - **PHP**: Debes tener instalado y configurado PHP en tu servidor.
 - **Servidor Web**: Requiere un entorno de servidor local como Apache para ejecutar el código PHP.
+
+## Ejemplo de Uso
+
+- **Añadir Producto**: Agrega productos al carrito y visualiza los cambios en tiempo real.
+- **Eliminar Producto**: Usa el ícono de la papelera (`trash.gif`) para eliminar un producto.
+- **Actualizar Cantidad**: Ajusta la cantidad de productos y observa cómo el total se actualiza automáticamente.
+- **Ver Carrito**: Haz clic en el ícono (`vercarrito.gif`) para revisar los productos añadidos.
