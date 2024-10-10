@@ -18,3 +18,7 @@ El proyecto consta de los siguientes archivos principales:
 - **Agregar Productos**: Los usuarios pueden añadir productos al carrito de compras y ver sus detalles.
 - **Eliminar Productos**: Se pueden eliminar productos específicos del carrito utilizando el ícono de la papelera (`trash.gif`).
 - **Actualizar Cantidad**: Permite modificar la cantidad de productos en el carrito en tiempo real.
+- - **Visualización del Carrito**: Los usuarios pueden ver el contenido del carrito usando el ícono (`vercarrito.gif`).
+- **Gestión de Sesión**: Funcionalidad para cerrar sesión o limpiar el carrito utilizando `logout.php`.
+
+## Cómo Usar el Carrito de Compras
