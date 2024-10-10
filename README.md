@@ -10,3 +10,5 @@ El proyecto consta de los siguientes archivos principales:
 - **`carro.php`**: Archivo para gestionar las interacciones con el carrito, como el procesamiento de productos añadidos y la actualización del estado del carrito.
 - **`global.php`**: Archivo de configuración global que contiene las variables y las constantes necesarias para la operación del carrito.
 - **`logout.php`**: Permite al usuario salir del sistema o limpiar la sesión actual.
+- **`trash.gif`**: Imagen utilizada para representar la acción de eliminar un producto del carrito.
+- **`vercarrito.gif`**: Imagen utilizada para mostrar o visualizar el carrito de compras.
